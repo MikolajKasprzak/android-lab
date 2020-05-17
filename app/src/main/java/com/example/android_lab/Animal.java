@@ -44,6 +44,6 @@ public class Animal implements Serializable {
 
     @Override
     public String toString(){
-        return "Zwierze: [id=" + id + ", gatunek=" + gatunek + ", kolor=" + kolor + ", wielkosc=" + wielkosc + " ]";
+        return "Zwierze: [_id=" + id + ", gatunek=" + gatunek + ", kolor=" + kolor + ", wielkosc=" + wielkosc + " ]";
     }
 }
